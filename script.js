@@ -25,7 +25,6 @@ function nextPalindrome(num) {
       do {
         num++;
       } while (!isPalindrome(num));
-
 	return num;
 
 }
