@@ -28,6 +28,5 @@ function nextPalindrome(num) {
 	return num;
 
 }
-
 const input = prompt("Enter a palindrome number");
 alert(nextPalindrome(input));
