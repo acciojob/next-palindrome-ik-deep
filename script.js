@@ -23,6 +23,7 @@ function nextPalindrome(num) {
 
       // Find the next palindrome number
       do {
+		  
         num++;
       } while (!isPalindrome(num));
 	return num;
